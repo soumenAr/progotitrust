@@ -552,7 +552,12 @@ a{
     background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(0,0,0,.26));
 }
 
-.prog-1{background:linear-gradient(135deg,#2f5e48,#75a286);}
+.prog-1{
+    background-image:url("../assets/rural.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
 .prog-2{background:linear-gradient(135deg,#3a5d78,#8fb1c4);}
 .prog-3{background:linear-gradient(135deg,#5a6078,#a6adc4);}
 .prog-4{background:linear-gradient(135deg,#6f4b53,#c0919c);}
