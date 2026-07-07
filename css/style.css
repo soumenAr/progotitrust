@@ -1,1 +1,22 @@
-body{font-family:Arial,sans-serif;margin:40px}h1{color:#0b4c8c}
+body{font-family:Arial,sans-serif;margin:20px;color:#222;line-height:1.4}
+h1{color:#0b4c8c;margin:0 0 12px}
+
+header{margin-bottom:20px}
+.main-nav{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.main-nav ul{list-style:none;padding:0;margin:0;display:flex;gap:12px}
+.main-nav a{color:#0b4c8c;text-decoration:none;padding:8px 6px;border-radius:4px}
+.main-nav a:hover{background:rgba(11,76,140,0.08)}
+.controls{display:flex;align-items:center;gap:8px}
+.btn{background:#0b4c8c;color:#fff;border:0;padding:8px 12px;border-radius:4px;cursor:pointer}
+.btn:hover{opacity:0.95}
+.lang-switch{display:flex;border:1px solid #ddd;border-radius:6px;overflow:hidden}
+.lang{background:transparent;border:0;padding:6px 8px;cursor:pointer}
+.lang.active{background:#0b4c8c;color:#fff}
+
+main section{padding:18px 0;border-top:1px solid #eee}
+main h2{margin:0 0 8px;color:#0b4c8c}
+
+@media(max-width:640px){
+	.main-nav ul{flex-wrap:wrap;gap:8px}
+	.controls{margin-top:8px;width:100%;justify-content:flex-start}
+}
