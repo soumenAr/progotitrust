@@ -1,8 +1,8 @@
 const translations = {
 	en: {
-		siteTitle: "Progoti Development & Welfare Trust",
+		siteTitle: "Progoti Development & welfare trust",
 		about: "About",
-		whatwedo: "Programs",
+		whatwedo: "What We Do",
 		insights: "Insights",
 		careers: "Careers",
 		media: "Media",
@@ -10,7 +10,7 @@ const translations = {
 		subscribe: "Subscribe",
 		heroTag: "Community-first social impact",
 		heroTitle: "Building resilient lives through education, healthcare, and livelihood action.",
-		heroText: "Progoti Development & Welfare Trust partners with communities to co-create practical solutions that are dignified, inclusive, and scalable.",
+		heroText: "Progoti Development & welfare trust partners with communities to co-create practical solutions that are dignified, inclusive, and scalable.",
 		exploreWork: "Explore Our Work",
 		joinMission: "Join The Mission",
 		visionTitle: "Our Vision",
@@ -51,7 +51,7 @@ const translations = {
 		sendMessage: "Send Message",
 		contactInfoTitle: "Reach us",
 		addressText: "Address: Progoti Bhavan, Community Road, West Bengal, India",
-		footerText: "Copyright 2026 Progoti Development & Welfare Trust. All rights reserved.",
+		footerText: "Copyright 2026 Progoti Development & welfare trust. All rights reserved.",
 		backTop: "Back to top",
 		subscribePrompt: "Enter your email to subscribe:",
 		subscribeSuccess: "Thanks for subscribing.",
@@ -62,7 +62,7 @@ const translations = {
 	bn: {
 		siteTitle: "প্রগতি ডেভেলপমেন্ট অ্যান্ড ওয়েলফেয়ার ট্রাস্ট",
 		about: "পরিচিতি",
-		whatwedo: "কার্যক্রম",
+		whatwedo: "আমরা যা করি",
 		insights: "ইনসাইটস",
 		careers: "ক্যারিয়ার",
 		media: "মিডিয়া",
