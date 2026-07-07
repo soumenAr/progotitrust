@@ -1,200 +1,208 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Progoti Development & Welfare Trust works for dignified, inclusive and sustainable community development.">
-	<title>Progoti Development & Welfare Trust</title>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Progoti Development &amp; Welfare Trust works for dignified, inclusive and sustainable community development.">
+<title>Progoti Development &amp; Welfare Trust</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div class="backdrop-shape shape-one"></div>
-	<div class="backdrop-shape shape-two"></div>
+<div class="backdrop-shape shape-one"></div>
+<div class="backdrop-shape shape-two"></div>
 
-	<header class="site-header">
-		<div class="container nav-wrap">
-			<a class="brand" href="#home" aria-label="Progoti Home">
-				<img src="assets/logo.png" alt="Progoti logo">
-				<span data-i18n="siteTitle">Progoti Development & Welfare Trust</span>
-			</a>
+<header class="site-header">
+<div class="container nav-wrap">
+<a class="brand" href="#home" aria-label="Progoti Home">
+<img src="assets/logo.png" alt="Progoti logo">
+<span data-i18n="siteTitle">Progoti Development &amp; Welfare Trust</span>
+</a>
+<button id="menuToggle" class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+<nav class="main-nav" id="mainNav">
+<a href="#about" data-i18n="about">About</a>
+<div class="nav-item has-dropdown">
+<a href="#programs" data-i18n="whatwedo">Programs</a>
+<button class="sub-toggle" id="programsToggle" aria-label="Toggle Programs submenu" aria-expanded="false" aria-controls="programsSubmenu">+</button>
+<div class="submenu" id="programsSubmenu">
+<a href="https://www.reliancefoundation.org/what-we-do/rural-transformation" target="_blank" rel="noopener noreferrer">Rural Transformation</a>
+<a href="https://www.reliancefoundation.org/what-we-do/health" target="_blank" rel="noopener noreferrer">Health</a>
+<a href="https://www.reliancefoundation.org/what-we-do/disaster-management" target="_blank" rel="noopener noreferrer">Disaster Management</a>
+<a href="https://www.reliancefoundation.org/what-we-do/art-culture-heritage" target="_blank" rel="noopener noreferrer">Art, Culture &amp; Heritage</a>
+<a href="https://www.reliancefoundation.org/what-we-do/environment-animal-welfare" target="_blank" rel="noopener noreferrer">Environment &amp; Animal Welfare</a>
+<a href="https://www.reliancefoundation.org/what-we-do/education" target="_blank" rel="noopener noreferrer">Education</a>
+<a href="https://www.reliancefoundation.org/what-we-do/sports-for-development" target="_blank" rel="noopener noreferrer">Sports for Development</a>
+<a href="https://www.reliancefoundation.org/what-we-do/women-empowerment" target="_blank" rel="noopener noreferrer">Women Empowerment</a>
+<a href="https://www.reliancefoundation.org/what-we-do/urban-renewal" target="_blank" rel="noopener noreferrer">Urban Renewal</a>
+<a href="https://www.reliancefoundation.org/what-we-do/volunteering-at-reliance" target="_blank" rel="noopener noreferrer">Volunteering</a>
+</div>
+</div>
+<a href="#insights" data-i18n="insights">Insights</a>
+<a href="#careers" data-i18n="careers">Careers</a>
+<a href="#media" data-i18n="media">Media</a>
+<a href="#contact" data-i18n="contact">Contact</a>
+</nav>
+<div class="controls">
+<button id="subscribeBtn" class="btn btn-solid" data-i18n="subscribe">Subscribe</button>
+<div class="lang-switch" aria-label="Language switch">
+<button id="lang-en" class="lang active">EN</button>
+<button id="lang-bn" class="lang">বাং</button>
+</div>
+</div>
+</div>
+</header>
 
-			<button id="menuToggle" class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+<main id="home">
+<section class="hero section container">
+<div class="hero-content reveal">
+<p class="eyebrow" data-i18n="heroTag">Community-first social impact</p>
+<h1 data-i18n="heroTitle">Building resilient lives through education, healthcare, and livelihood action.</h1>
+<p data-i18n="heroText">Progoti Development &amp; Welfare Trust partners with communities to co-create practical solutions that are dignified, inclusive, and scalable.</p>
+<div class="hero-actions">
+<a class="btn btn-solid" href="#programs" data-i18n="exploreWork">Explore Our Work</a>
+<a class="btn btn-outline" href="#contact" data-i18n="joinMission">Join The Mission</a>
+</div>
+</div>
+<figure class="hero-media reveal delay-1">
+<img src="assets/hero.jpg" alt="Community development activities by Progoti">
+</figure>
+</section>
 
-			<nav class="main-nav" id="mainNav">
-				<a href="#about" data-i18n="about">About</a>
-				<a href="#programs" data-i18n="whatwedo">Programs</a>
-				<a href="#insights" data-i18n="insights">Insights</a>
-				<a href="#careers" data-i18n="careers">Careers</a>
-				<a href="#media" data-i18n="media">Media</a>
-				<a href="#contact" data-i18n="contact">Contact</a>
-			</nav>
+<section id="about" class="section container">
+<div class="section-head reveal">
+<p class="eyebrow" data-i18n="about">About</p>
+<h2 data-i18n="visionTitle">Our Vision</h2>
+</div>
+<div class="about-grid">
+<div class="card reveal">
+<p data-i18n="visionText">To nurture equitable communities where every child learns, every family has healthcare access, and every young person can build a dignified livelihood.</p>
+</div>
+<div class="card quote reveal delay-1">
+<p data-i18n="approachText">Our approach blends direct action, grassroots partnerships, and digital enablement to create long-term social outcomes.</p>
+</div>
+</div>
+</section>
 
-			<div class="controls">
-				<button id="subscribeBtn" class="btn btn-solid" data-i18n="subscribe">Subscribe</button>
-				<div class="lang-switch" aria-label="Language switch">
-					<button id="lang-en" class="lang active">EN</button>
-					<button id="lang-bn" class="lang">বাং</button>
-				</div>
-			</div>
-		</div>
-	</header>
+<section id="programs" class="section container">
+<div class="section-head reveal">
+<p class="eyebrow" data-i18n="whatwedo">Programs</p>
+<h2 data-i18n="focusTitle">What We Do</h2>
+</div>
+<div class="program-grid">
+<article class="program-card reveal">
+<h3 data-i18n="p1Title">Education &amp; Skills</h3>
+<p data-i18n="p1Text">Learning support, scholarships, digital labs, and youth skill pathways.</p>
+</article>
+<article class="program-card reveal delay-1">
+<h3 data-i18n="p2Title">Health &amp; Nutrition</h3>
+<p data-i18n="p2Text">Screening camps, maternal health awareness, and nutrition outreach.</p>
+</article>
+<article class="program-card reveal delay-2">
+<h3 data-i18n="p3Title">Women &amp; Livelihoods</h3>
+<p data-i18n="p3Text">Self-help group strengthening, entrepreneurship support, and market linkages.</p>
+</article>
+<article class="program-card reveal">
+<h3 data-i18n="p4Title">Climate &amp; Resilience</h3>
+<p data-i18n="p4Text">Water stewardship, local adaptation planning, and greener practices.</p>
+</article>
+</div>
+</section>
 
-	<main id="home">
-		<section class="hero section container">
-			<div class="hero-content reveal">
-				<p class="eyebrow" data-i18n="heroTag">Community-first social impact</p>
-				<h1 data-i18n="heroTitle">Building resilient lives through education, healthcare, and livelihood action.</h1>
-				<p data-i18n="heroText">Progoti Development & Welfare Trust partners with communities to co-create practical solutions that are dignified, inclusive, and scalable.</p>
-				<div class="hero-actions">
-					<a class="btn btn-solid" href="#programs" data-i18n="exploreWork">Explore Our Work</a>
-					<a class="btn btn-outline" href="#contact" data-i18n="joinMission">Join The Mission</a>
-				</div>
-			</div>
-			<figure class="hero-media reveal delay-1">
-				<img src="assets/hero.jpg" alt="Community development activities by Progoti">
-			</figure>
-		</section>
+<section class="section container impact">
+<div class="section-head reveal">
+<p class="eyebrow" data-i18n="impact">Impact</p>
+<h2 data-i18n="impactTitle">Our Reach So Far</h2>
+</div>
+<div class="impact-grid">
+<div class="impact-item reveal">
+<h3><span class="counter" data-target="120000">0</span>+</h3>
+<p data-i18n="impact1">Lives supported</p>
+</div>
+<div class="impact-item reveal delay-1">
+<h3><span class="counter" data-target="320">0</span>+</h3>
+<p data-i18n="impact2">Villages and wards reached</p>
+</div>
+<div class="impact-item reveal delay-2">
+<h3><span class="counter" data-target="540">0</span>+</h3>
+<p data-i18n="impact3">Community volunteers trained</p>
+</div>
+</div>
+</section>
 
-		<section id="about" class="section container">
-			<div class="section-head reveal">
-				<p class="eyebrow" data-i18n="about">About</p>
-				<h2 data-i18n="visionTitle">Our Vision</h2>
-			</div>
-			<div class="about-grid">
-				<div class="card reveal">
-					<p data-i18n="visionText">To nurture equitable communities where every child learns, every family has healthcare access, and every young person can build a dignified livelihood.</p>
-				</div>
-				<div class="card quote reveal delay-1">
-					<p data-i18n="approachText">Our approach blends direct action, grassroots partnerships, and digital enablement to create long-term social outcomes.</p>
-				</div>
-			</div>
-		</section>
+<section id="insights" class="section container">
+<div class="section-head reveal">
+<p class="eyebrow" data-i18n="insights">Insights</p>
+<h2 data-i18n="insightsTitle">Stories and Publications</h2>
+</div>
+<div class="story-grid">
+<article class="story-card reveal">
+<h3 data-i18n="s1Title">Annual Impact Review 2025</h3>
+<p data-i18n="s1Text">A concise snapshot of milestones, lessons, and next-year priorities.</p>
+<a href="#" data-i18n="learnMore">Learn more</a>
+</article>
+<article class="story-card reveal delay-1">
+<h3 data-i18n="s2Title">Field Story: Girls in STEM Clubs</h3>
+<p data-i18n="s2Text">How mentoring and local role models improved retention and confidence.</p>
+<a href="#" data-i18n="learnMore">Learn more</a>
+</article>
+<article class="story-card reveal delay-2">
+<h3 data-i18n="s3Title">Community Health Notebook</h3>
+<p data-i18n="s3Text">Practical frameworks for prevention-first public health at local level.</p>
+<a href="#" data-i18n="learnMore">Learn more</a>
+</article>
+</div>
+</section>
 
-		<section id="programs" class="section container">
-			<div class="section-head reveal">
-				<p class="eyebrow" data-i18n="whatwedo">Programs</p>
-				<h2 data-i18n="focusTitle">What We Do</h2>
-			</div>
-			<div class="program-grid">
-				<article class="program-card reveal">
-					<h3 data-i18n="p1Title">Education & Skills</h3>
-					<p data-i18n="p1Text">Learning support, scholarships, digital labs, and youth skill pathways.</p>
-				</article>
-				<article class="program-card reveal delay-1">
-					<h3 data-i18n="p2Title">Health & Nutrition</h3>
-					<p data-i18n="p2Text">Screening camps, maternal health awareness, and nutrition outreach.</p>
-				</article>
-				<article class="program-card reveal delay-2">
-					<h3 data-i18n="p3Title">Women & Livelihoods</h3>
-					<p data-i18n="p3Text">Self-help group strengthening, entrepreneurship support, and market linkages.</p>
-				</article>
-				<article class="program-card reveal">
-					<h3 data-i18n="p4Title">Climate & Resilience</h3>
-					<p data-i18n="p4Text">Water stewardship, local adaptation planning, and greener practices.</p>
-				</article>
-			</div>
-		</section>
+<section id="careers" class="section container split-section">
+<div class="card reveal">
+<p class="eyebrow" data-i18n="careers">Careers</p>
+<h2 data-i18n="careerTitle">Work where your ideas become social outcomes.</h2>
+<p data-i18n="careerText">We are looking for field coordinators, program associates, and communication professionals committed to inclusive development.</p>
+<a href="#contact" class="btn btn-outline" data-i18n="applyNow">Apply Now</a>
+</div>
+<div id="media" class="card reveal delay-1">
+<p class="eyebrow" data-i18n="media">Media</p>
+<h2 data-i18n="mediaTitle">Updates from the ground.</h2>
+<p data-i18n="mediaText">Find press notes, photo essays, and community stories from our field teams across districts.</p>
+<a href="#insights" class="btn btn-outline" data-i18n="viewUpdates">View Updates</a>
+</div>
+</section>
 
-		<section class="section container impact">
-			<div class="section-head reveal">
-				<p class="eyebrow" data-i18n="impact">Impact</p>
-				<h2 data-i18n="impactTitle">Our Reach So Far</h2>
-			</div>
-			<div class="impact-grid">
-				<div class="impact-item reveal">
-					<h3><span class="counter" data-target="120000">0</span>+</h3>
-					<p data-i18n="impact1">Lives supported</p>
-				</div>
-				<div class="impact-item reveal delay-1">
-					<h3><span class="counter" data-target="320">0</span>+</h3>
-					<p data-i18n="impact2">Villages and wards reached</p>
-				</div>
-				<div class="impact-item reveal delay-2">
-					<h3><span class="counter" data-target="540">0</span>+</h3>
-					<p data-i18n="impact3">Community volunteers trained</p>
-				</div>
-			</div>
-		</section>
+<section id="contact" class="section container contact-section">
+<div class="section-head reveal">
+<p class="eyebrow" data-i18n="contact">Contact</p>
+<h2 data-i18n="contactTitle">Partner, volunteer, or ask us anything.</h2>
+</div>
+<div class="contact-grid">
+<form id="contactForm" class="card reveal" novalidate>
+<label for="name" data-i18n="name">Name</label>
+<input id="name" name="name" type="text" required>
+<label for="email" data-i18n="email">Email</label>
+<input id="email" name="email" type="email" required>
+<label for="message" data-i18n="message">Message</label>
+<textarea id="message" name="message" rows="4" required></textarea>
+<button type="submit" class="btn btn-solid" data-i18n="sendMessage">Send Message</button>
+<p id="formStatus" class="status-text" aria-live="polite"></p>
+</form>
+<div class="card contact-info reveal delay-1">
+<h3 data-i18n="contactInfoTitle">Reach us</h3>
+<p><strong>Email:</strong> <a href="mailto:trustprogoti@gmail.com">trustprogoti@gmail.com</a></p>
+<p><strong>Phone:</strong> +91 00000 00000</p>
+<p data-i18n="addressText"><strong>Address:</strong> Progoti Bhavan, Community Road, West Bengal, India</p>
+</div>
+</div>
+</section>
+</main>
 
-		<section id="insights" class="section container">
-			<div class="section-head reveal">
-				<p class="eyebrow" data-i18n="insights">Insights</p>
-				<h2 data-i18n="insightsTitle">Stories and Publications</h2>
-			</div>
-			<div class="story-grid">
-				<article class="story-card reveal">
-					<h3 data-i18n="s1Title">Annual Impact Review 2025</h3>
-					<p data-i18n="s1Text">A concise snapshot of milestones, lessons, and next-year priorities.</p>
-					<a href="#" data-i18n="learnMore">Learn more</a>
-				</article>
-				<article class="story-card reveal delay-1">
-					<h3 data-i18n="s2Title">Field Story: Girls in STEM Clubs</h3>
-					<p data-i18n="s2Text">How mentoring and local role models improved retention and confidence.</p>
-					<a href="#" data-i18n="learnMore">Learn more</a>
-				</article>
-				<article class="story-card reveal delay-2">
-					<h3 data-i18n="s3Title">Community Health Notebook</h3>
-					<p data-i18n="s3Text">Practical frameworks for prevention-first public health at local level.</p>
-					<a href="#" data-i18n="learnMore">Learn more</a>
-				</article>
-			</div>
-		</section>
+<footer class="site-footer">
+<div class="container footer-wrap">
+<p data-i18n="footerText">Copyright 2026 Progoti Development &amp; Welfare Trust. All rights reserved.</p>
+<a href="#home" class="to-top" data-i18n="backTop">Back to top</a>
+</div>
+</footer>
 
-		<section id="careers" class="section container split-section">
-			<div class="card reveal">
-				<p class="eyebrow" data-i18n="careers">Careers</p>
-				<h2 data-i18n="careerTitle">Work where your ideas become social outcomes.</h2>
-				<p data-i18n="careerText">We are looking for field coordinators, program associates, and communication professionals committed to inclusive development.</p>
-				<a href="#contact" class="btn btn-outline" data-i18n="applyNow">Apply Now</a>
-			</div>
-			<div id="media" class="card reveal delay-1">
-				<p class="eyebrow" data-i18n="media">Media</p>
-				<h2 data-i18n="mediaTitle">Updates from the ground.</h2>
-				<p data-i18n="mediaText">Find press notes, photo essays, and community stories from our field teams across districts.</p>
-				<a href="#insights" class="btn btn-outline" data-i18n="viewUpdates">View Updates</a>
-			</div>
-		</section>
-
-		<section id="contact" class="section container contact-section">
-			<div class="section-head reveal">
-				<p class="eyebrow" data-i18n="contact">Contact</p>
-				<h2 data-i18n="contactTitle">Partner, volunteer, or ask us anything.</h2>
-			</div>
-			<div class="contact-grid">
-				<form id="contactForm" class="card reveal" novalidate>
-					<label for="name" data-i18n="name">Name</label>
-					<input id="name" name="name" type="text" required>
-
-					<label for="email" data-i18n="email">Email</label>
-					<input id="email" name="email" type="email" required>
-
-					<label for="message" data-i18n="message">Message</label>
-					<textarea id="message" name="message" rows="4" required></textarea>
-
-					<button type="submit" class="btn btn-solid" data-i18n="sendMessage">Send Message</button>
-					<p id="formStatus" class="status-text" aria-live="polite"></p>
-				</form>
-
-				<div class="card contact-info reveal delay-1">
-					<h3 data-i18n="contactInfoTitle">Reach us</h3>
-					<p><strong>Email:</strong> info@progotitrust.org</p>
-					<p><strong>Phone:</strong> +91 00000 00000</p>
-					<p data-i18n="addressText"><strong>Address:</strong> Progoti Bhavan, Community Road, West Bengal, India</p>
-				</div>
-			</div>
-		</section>
-	</main>
-
-	<footer class="site-footer">
-		<div class="container footer-wrap">
-			<p data-i18n="footerText">Copyright 2026 Progoti Development & Welfare Trust. All rights reserved.</p>
-			<a href="#home" class="to-top" data-i18n="backTop">Back to top</a>
-		</div>
-	</footer>
-
-	<script src="js/main.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
