@@ -827,6 +827,30 @@ input:focus,textarea:focus{
     color:#fff;
 }
 
+.fb-link{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    font-weight:700;
+    color:inherit;
+}
+
+.fb-icon{
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background:#1877f2;
+    color:#fff;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    font-family:Arial,sans-serif;
+    font-size:14px;
+    font-weight:700;
+    line-height:1;
+    text-transform:lowercase;
+}
+
 .reveal{
     opacity:0;
     transform:translateY(18px);
