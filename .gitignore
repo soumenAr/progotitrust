@@ -4,3 +4,10 @@ site_dump/
 # Explicit large reference file
 downloads/RF_Annual Report 2024-2025.pdf
 site_dump/www.reliancefoundation.org/sites/default/files/2026-01/RF_Annual%20Report_%202024-2025_020126_Final_low_0.pdf
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
