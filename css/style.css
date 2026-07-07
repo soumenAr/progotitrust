@@ -564,6 +564,58 @@ a{
     grid-template-columns:repeat(3,minmax(0,1fr));
 }
 
+.insights-layout{
+    display:grid;
+    grid-template-columns:1.05fr .95fr;
+    gap:18px;
+}
+
+.insight-feature{
+    background:linear-gradient(145deg,#fff,#f8f3e6);
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:28px;
+    box-shadow:0 10px 20px rgba(31,44,58,.08);
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+}
+
+.insight-feature h3{
+    font-size:1.65rem;
+    margin-bottom:10px;
+    max-width:18ch;
+}
+
+.insight-feature p{
+    margin:0 0 14px;
+    max-width:58ch;
+}
+
+.insight-feature a,
+.story-card a{
+    margin-top:auto;
+    font-weight:700;
+    font-size:12px;
+    letter-spacing:.06em;
+    text-transform:uppercase;
+    color:#14665d;
+}
+
+.insight-list{
+    display:grid;
+    gap:16px;
+}
+
+.insight-label{
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    font-weight:700;
+    color:#6a7280;
+    margin:0 0 10px;
+}
+
 .story-card{
     background:#fff;
     border:1px solid var(--line);
@@ -574,10 +626,52 @@ a{
     gap:10px;
 }
 
-.story-card a{
-    color:#14665d;
+.career-media-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:18px;
+}
+
+.career-panel,
+.media-panel{
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:26px;
+    box-shadow:0 8px 18px rgba(31,44,58,.06);
+}
+
+.career-panel h2,
+.media-panel h2{
+    max-width:18ch;
+}
+
+.career-tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin:16px 0 18px;
+}
+
+.career-tags span{
+    padding:6px 10px;
+    border:1px solid #d8d1c0;
+    border-radius:999px;
+    font-size:11px;
     font-weight:600;
-    margin-top:auto;
+    text-transform:uppercase;
+    letter-spacing:.06em;
+    color:#505d6d;
+}
+
+.media-points{
+    margin:14px 0 18px;
+    padding-left:18px;
+    color:#334255;
+}
+
+.media-points li{
+    margin-bottom:8px;
 }
 
 label{
@@ -713,6 +807,11 @@ input:focus,textarea:focus{
     }
 
     .about-grid,.split-section,.contact-grid,.impact-grid,.story-grid,.program-grid{
+        grid-template-columns:1fr;
+    }
+
+    .insights-layout,
+    .career-media-grid{
         grid-template-columns:1fr;
     }
 
