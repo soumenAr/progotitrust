@@ -553,20 +553,65 @@ a{
 }
 
 .prog-1{
-    background-image:url("../assets/rural.jpg");
+    background-image:url("../assets/rural.webp");
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
 }
-.prog-2{background:linear-gradient(135deg,#3a5d78,#8fb1c4);}
-.prog-3{background:linear-gradient(135deg,#5a6078,#a6adc4);}
-.prog-4{background:linear-gradient(135deg,#6f4b53,#c0919c);}
-.prog-5{background:linear-gradient(135deg,#7a5543,#c39a81);}
-.prog-6{background:linear-gradient(135deg,#7a6344,#c9ad77);}
-.prog-7{background:linear-gradient(135deg,#5d544a,#ac9e8b);}
-.prog-8{background:linear-gradient(135deg,#3d6863,#8ebbb3);}
-.prog-9{background:linear-gradient(135deg,#49536f,#96a2c4);}
-.prog-10{background:linear-gradient(135deg,#45646b,#8cb0b8);}
+.prog-2{
+    background-image:url("../assets/health.webp");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.prog-3{
+    background-image:url("../assets/education.webp");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.prog-4{
+    background-image:url("../assets/women.webp");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.prog-5{
+    background-image:url("../assets/disaster.webp");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.prog-6{
+    background-image:url("../assets/sports.webp");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.prog-7{
+    background-image:url("../assets/culture.webp");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.prog-8{
+    background-image:url("../assets/environment.webp");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.prog-9{
+    background-image:url("../assets/urban.webp");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.prog-10{
+    background-image:url("../assets/volunteer.webp");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
 
 .program-content{
     padding:18px 20px 22px;
