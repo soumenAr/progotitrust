@@ -239,6 +239,12 @@ a{
     display:block;
 }
 
+.home-president-photo{
+    width:64px;
+    height:64px;
+    border-width:3px;
+}
+
 .lang-switch{
     display:flex;
     border:1px solid var(--line);
@@ -986,6 +992,11 @@ input:focus,textarea:focus{
         box-shadow:none;
         margin-top:8px;
     }
+
+    .home-president-photo{
+        width:56px;
+        height:56px;
+    }
 }
 
 @media(max-width:720px){
@@ -997,6 +1008,11 @@ input:focus,textarea:focus{
         display:inline-flex;
         width:40px;
         height:40px;
+    }
+
+    .home-president-photo{
+        width:52px;
+        height:52px;
     }
 
     .controls .btn-solid{
