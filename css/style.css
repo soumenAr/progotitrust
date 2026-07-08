@@ -993,6 +993,12 @@ input:focus,textarea:focus{
         display:none;
     }
 
+    .header-president-photo{
+        display:inline-flex;
+        width:40px;
+        height:40px;
+    }
+
     .controls .btn-solid{
         display:none;
     }
