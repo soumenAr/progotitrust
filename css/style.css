@@ -426,6 +426,11 @@ a{
     border-bottom:1px solid var(--line);
 }
 
+.president-photo-raw{
+    object-fit:contain !important;
+    background:transparent !important;
+}
+
 .trustee-content{
     padding:18px;
     display:flex;
