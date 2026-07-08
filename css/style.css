@@ -454,6 +454,23 @@ a{
     background:transparent !important;
 }
 
+.home-president-section{
+    padding-top:24px;
+}
+
+.home-president-section .section-head{
+    margin-bottom:14px;
+}
+
+.home-president-section .trustee-grid{
+    grid-template-columns:minmax(0,360px);
+    justify-content:flex-start;
+}
+
+.home-president-section .trustee-card img{
+    height:380px;
+}
+
 .trustee-content{
     padding:18px;
     display:flex;
@@ -1029,6 +1046,14 @@ input:focus,textarea:focus{
 
     .trustee-grid{
         grid-template-columns:1fr;
+    }
+
+    .home-president-section .trustee-grid{
+        grid-template-columns:1fr;
+    }
+
+    .home-president-section .trustee-card img{
+        height:340px;
     }
 
     .insights-layout,
